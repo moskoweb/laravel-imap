@@ -218,6 +218,7 @@ You can define your accounts inside the [config/imap.php](src/config/imap.php) f
 | getInReplyTo    |                               | string      | Get the current In-Reply-To            |
 | getSender       |                               | array       | Get the current sender information     |
 | getBodies       |                               | mixed       | Get the current bodies                 |
+| getRaw          |                               | string      | Get the raw Message                    |
 
 ### [Folder::class](src/IMAP/Folder.php)
 | Method        | Arguments                                               | Return  | Description                                    |
